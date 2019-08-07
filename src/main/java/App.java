@@ -18,7 +18,7 @@ public class App {
 
     @GetMapping("/hello")
     public String hello(){
-        return "docker部署成功";
+        return "docker部署成功......";
     }
 
 
