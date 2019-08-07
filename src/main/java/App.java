@@ -3,6 +3,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import sun.tools.jar.resources.jar;
 
 /**
  * Created by DZY on 2019/8/7.
@@ -18,8 +19,10 @@ public class App {
 
     @GetMapping("/hello")
     public String hello(){
-        return "docker部署成功......###";
+        return "docker部署成功第二次测试......###";
     }
+
+
 
 
 }
